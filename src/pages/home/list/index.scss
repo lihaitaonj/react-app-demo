@@ -1,0 +1,9 @@
+.list-card-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  >.ant-card {
+    padding: 10px;
+    margin: 10px;
+  }
+}

@@ -3,7 +3,7 @@
  * @Author: lsg
  * @Date: 2020-04-14 16:00:25
  * @LastEditors: lsg
- * @LastEditTime: 2020-04-15 10:27:37
+ * @LastEditTime: 2020-04-20 17:15:42
  * @FilePath: \react-app-demo\src\pages\home\index.js
  */
 import React from 'react';
@@ -48,10 +48,10 @@ class home extends React.Component {
           <div className='logo' />
           <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['1']}>
             <Menu.Item key='1'>
-              <Link to='/home/main'>nav 1</Link>
+              <Link to='/home/main'>main</Link>
             </Menu.Item>
             <Menu.Item key='2'>
-              <Link to='/home/list'>nav 2</Link>
+              <Link to='/home/list'>list</Link>
             </Menu.Item>
             <Menu.Item key='3'>nav 3</Menu.Item>
           </Menu>

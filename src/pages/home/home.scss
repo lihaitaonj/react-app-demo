@@ -12,6 +12,10 @@
     background: #fff;
     padding: 24px;
     min-height: 280px;
+    height: calc(100% - 62px);
+    >.router-page {
+      overflow-y: auto;
+    }
   }
 
 }
