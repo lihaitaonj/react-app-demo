@@ -3,7 +3,7 @@
  * @Author: lsg
  * @Date: 2020-04-14 15:59:21
  * @LastEditors: lsg
- * @LastEditTime: 2020-04-16 11:03:22
+ * @LastEditTime: 2020-04-20 17:08:05
  * @FilePath: \react-app-demo\src\pages\login\index.js
  */
 import React from 'react';
@@ -58,12 +58,14 @@ class login extends React.Component {
             value={this.state.user_name}
             onChange={this.changeUserName}
             prefix={<UserOutlined />}
+            onPressEnter={this.btnFn}
           />
           <Input.Password
             size='large'
             placeholder='passWord'
             value={this.state.pass_word}
             onChange={this.changePassWord}
+            onPressEnter={this.btnFn}
           />
           <Button onClick={this.btnFn}>Login</Button>
         </div>
