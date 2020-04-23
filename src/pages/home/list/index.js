@@ -3,7 +3,7 @@
  * @Author: lsg
  * @Date: 2020-04-15 09:11:38
  * @LastEditors: lsg
- * @LastEditTime: 2020-04-20 18:03:10
+ * @LastEditTime: 2020-04-22 17:00:10
  * @FilePath: \react-app-demo\src\pages\home\list\index.js
  */
 import React from 'react';
@@ -13,7 +13,7 @@ import './index.scss';
 
 const { Meta } = Card;
 
-function list() {
+function List() {
   const list_info = [1,2,3,4,5];
 
   return (
@@ -40,4 +40,4 @@ function list() {
   )
 }
 
-export default list;
+export default List

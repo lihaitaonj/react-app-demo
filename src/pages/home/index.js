@@ -3,7 +3,7 @@
  * @Author: lsg
  * @Date: 2020-04-14 16:00:25
  * @LastEditors: lsg
- * @LastEditTime: 2020-04-20 17:15:42
+ * @LastEditTime: 2020-04-22 17:03:40
  * @FilePath: \react-app-demo\src\pages\home\index.js
  */
 import React from 'react';
@@ -40,6 +40,10 @@ const routes = [
 ]
 
 class home extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log(this.props.match)
+  }
   
   render() {
     return (
